@@ -206,7 +206,7 @@ prepare () {
             "$BUILD_DIR/patches"
 
     [[ $PATCHES_DIR ]] && [[ -d $PATCHES_DIR ]] \
-        && cp -rf "$PATCHES_DIR/." \
+        && cp -a "$PATCHES_DIR/." \
             "$BUILD_DIR/patches"
 
     cd "$BUILD_DIR/chromium/src"
