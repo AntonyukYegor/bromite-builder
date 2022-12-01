@@ -6,8 +6,8 @@ IFS=$'\n\t'
 
 # User-defined Variables
 ARCH_TYPES=('arm' 'arm64' 'x86' 'x64')
-ARCH=${ARCH_TYPES[0]}
-BROMITE_GIT_URL_UPSTREAM="https://github.com/bromite/bromite.git"
+ARCH=${ARCH_TYPES[1]}
+BROMITE_GIT_URL_UPSTREAM="https://github.com/AntonyukYegor/bromite.git"
 BROMITE_GIT_URL=${BROMITE_GIT_URL_UPSTREAM:-}
 BROMITE_GIT_TAGS=
 DARK_NAVBAR=
