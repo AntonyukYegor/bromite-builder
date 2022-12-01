@@ -202,7 +202,7 @@ prepare () {
         "$BUILD_DIR/patches"
 
     [[ $DARK_NAVBAR ]] \
-        && cp -f "$CWD/patches/Dark-Navbar.patch" \
+        && cp -a "$CWD/patches/." \
             "$BUILD_DIR/patches"
 
     [[ $PATCHES_DIR ]] && [[ -d $PATCHES_DIR ]] \
