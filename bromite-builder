@@ -198,9 +198,6 @@ prepare () {
     # Prep Patching
     rm -rf "$BUILD_DIR/patches"
 
-    cp -rf "$bromite_src/patches" \
-        "$BUILD_DIR/patches"
-
     [[ $DARK_NAVBAR ]] \
         && cp -a "$CWD/patches/." \
             "$BUILD_DIR/patches"
