@@ -130,7 +130,7 @@ fetch-sync () {
     git reset "$hash" --hard -q
     rm -rf .git
     
-    sudo rm "$bromite_dir/build/patches/Multiple-fingerprinting-mitigations.patch"
+    sudo rm "$bromite_src/build/patches/Multiple-fingerprinting-mitigations.patch"
 
     # Fetch & Sync Chromium
     echo "Fetching and Syncing Chromium"
